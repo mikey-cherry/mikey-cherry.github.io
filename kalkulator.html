@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator</title>
+</head>
+
+<!-- 
+<style>
+    table { width: 410px;}
+    button { width: 60px; height: 43px;}
+    .kalkulator {width: 410px; padding: 10px;}
+    .wynik { height: 73px; width: 380px; background-color: #969696; font-size: 40px; color: #4B5052; margin: 0 0 10px 0; text-align: right;}
+    .plus {height: 90px;}
+</style> -->
+
+<body> 
+<div id="kalkulator" class="kalkulator">
+    <div id="top">
+        <table>
+            <tr>
+                <td>
+                    <span>Vector</span>
+                </td>
+                <td>
+                    <span>CD-1202</span>
+                </td>
+                <td>
+                    <span>TWO POWER</span>
+                </td>
+                <td>
+                    <div>10</div>
+                    <div>digits</div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="obszar_wyniku" class="wynik">
+        <input type="text" placeholder="E        1'234'567'890." id="input" class="wynik" disabled/>
+    </div>
+    <table id="klawiatura"> 
+        <tr> 
+            <td><button>MRC</button></td> 
+            <td><button>M-</button></td> 
+            <td><button>M+</button></td> 
+            <td><button>CE</button></td>
+            <td><button>ON </sup>&frasl;<sub>C</sub></button></td> 
+        </tr> 
+        <tr> 
+            <td><button>7</button></td> 
+            <td><button>8</button></td> 
+            <td><button>9</button></td> 
+            <td><button>%</button></td>
+            <td><button>&radic;</button></td> 
+        </tr> 
+        <tr> 
+            <td><button>4</button></td> 
+            <td><button>5</button></td> 
+            <td><button>6</button></td> 
+            <td><button>x</button></td>
+            <td><button>&#247;</button></td> 
+        </tr> 
+        <tr> 
+            <td><button>1</button></td> 
+            <td><button>2</button></td> 
+            <td ><button>3</button></td> 
+            <td rowspan="2"><button class="plus">+</button></td>
+            <td><button>-</button></td> 
+        </tr>  
+        <tr>
+            <td><button>0</button></td> 
+            <td><button>.</button></td> 
+            <td><button>+</sup>&frasl;<sub>-</sub></button></td>    
+            <td><button>=</button></td> 
+        </tr> 
+    </table> 
+</div>
+</body>
+</html>
