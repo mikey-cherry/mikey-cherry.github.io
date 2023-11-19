@@ -766,7 +766,7 @@ blog-img {
   height: 192px;
   align-self: stretch;
   border-radius: 8px;
-  background-image: url(./assets/slider.jpeg);
+  background-image: url(./assets/slider.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
